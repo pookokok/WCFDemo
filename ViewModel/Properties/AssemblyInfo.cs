@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("ViewModel")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Biotronik SE & Co. KG")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ViewModel")]
-[assembly: AssemblyCopyright("Copyright © Biotronik SE & Co. KG 2017")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

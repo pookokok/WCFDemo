@@ -1,0 +1,20 @@
+﻿@model IList<ViewModel.UserViewModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<h2>title</h2>
+@for (var i = 0; i < Model.Count(); i++)
+{
+    <div>
+        <div><strong>@Html.TextBoxFor(model => model[i].Name)</strong></div>
+        <div>@Html.TextBoxFor(model => model[i].Address)</div>
+        <div>@Html.TextBoxFor(model => model[i].City)</div>
+        <div>@Html.TextBoxFor(model => model[i].Country)</div>
+        <div>@Html.TextBoxFor(model => model[i].Dob)</div>
+        <div></div>
+        <br/>
+    </div>
+}

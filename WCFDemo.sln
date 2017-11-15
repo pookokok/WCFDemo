@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFDemo", "WCFDemo\WCFDemo.csproj", "{2A00091F-3B33-4207-9CFB-7205866F942F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{304AE37C-5035-40C7-93C1-96080B19000D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceHost", "ServiceHost\WcfServiceHost.csproj", "{304AE37C-5035-40C7-93C1-96080B19000D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessServiceLayer", "BusinessServiceLayer", "{22366A6C-2B40-40D9-A6C9-55FE3CDC6070}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessServiceContracts", "BusinessServiceContracts\BusinessServiceContracts.csproj", "{A214F687-86A2-444D-BE3A-510E2EF98F33}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{BE872051-B47D-46A2-969A-4DBB14F40688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHost", "ConsoleHost\ConsoleHost.csproj", "{7334F237-A78F-41D3-8568-4547F45B8858}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{BE872051-B47D-46A2-969A-4DBB14F40688}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE872051-B47D-46A2-969A-4DBB14F40688}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE872051-B47D-46A2-969A-4DBB14F40688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7334F237-A78F-41D3-8568-4547F45B8858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7334F237-A78F-41D3-8568-4547F45B8858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7334F237-A78F-41D3-8568-4547F45B8858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7334F237-A78F-41D3-8568-4547F45B8858}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +55,6 @@ Global
 		{304AE37C-5035-40C7-93C1-96080B19000D} = {22366A6C-2B40-40D9-A6C9-55FE3CDC6070}
 		{F6EBCA53-33B2-4EB1-B8D5-83AFAC3F1C92} = {22366A6C-2B40-40D9-A6C9-55FE3CDC6070}
 		{A214F687-86A2-444D-BE3A-510E2EF98F33} = {22366A6C-2B40-40D9-A6C9-55FE3CDC6070}
+		{7334F237-A78F-41D3-8568-4547F45B8858} = {22366A6C-2B40-40D9-A6C9-55FE3CDC6070}
 	EndGlobalSection
 EndGlobal

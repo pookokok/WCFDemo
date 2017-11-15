@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ServiceHost")]
+[assembly: AssemblyTitle("WcfServiceHost")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Biotronik SE & Co. KG")]
-[assembly: AssemblyProduct("ServiceHost")]
-[assembly: AssemblyCopyright("Copyright © Biotronik SE & Co. KG 2017")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WcfServiceHost")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
